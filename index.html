@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.CSS" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="application-form">
+      <h1>
+        KUFA PAINTING SERVICES APPLICATION FORM
+        <hr />
+      </h1>
+    </div>
+    <div class="painting-form"></div>
+    <main>
+      <form class="search-form">
+        <label for="full name">Applicant full name:</label>
+        <br />
+        <div class="inline-fields">
+          <input type="text" placeholder="First "  class="styled-input" required />
+
+          <input type="text" placeholder="Last " class="styled-input" required />
+        </div>
+        <div>
+          <br />
+          <label for="date of birth">Date of birth:</label>
+          <input type="date"  class="styled-input" />
+        </div>
+        <br /><label for="text">Phone:</label>
+        <input type="text" name="phone"  class="styled-input" />
+       <br><br> <label for="text">Alternative phone:</label>
+        <input type="text" name="Alternative phone" class="styled-input">
+
+        <div>
+          <br /><label for="emai address">Email address:</label>
+          <input type="email" name="email address" class="styled-input" required />
+        </div>
+        <br />
+        <div class="home-address">
+          <label for="text">Home address:</label><br />
+          <div class="inline-field">
+            <input type="text" placeholder="Street Address" class="styled-input" />
+            <input type="text" placeholder="Street Address line 2" class="styled-input"/>
+          </div>
+          <br />
+          <div class="input-field">
+          <input type="text" placeholder="city" class="styled-input" />
+          <input type="text" placeholder="Postal Code" class="styled-input" required />
+        </div>
+
+        <br><label for="date">Application date:</label>
+        <input type="date" name="date" class="styled-input" />
+      </form>
+
+      <br /><label for="text"
+        ><br>Do you have experience with residential, commercial, or industrial
+        painting?
+      </label>
+      <input type="text" name="experience" class="styled-input" />
+      <p>Are you physically able to stand or move for long periods?</p>
+      <label>
+        <input type="radio" name="medical-condition" value="yes" />Yes
+      </label>
+      <label>
+        <input type="radio" name="medical-condition" value="no" />NO
+      </label>
+      <p>Are you available to start immediately?</p>
+      <label
+        ><input
+          type="radio"
+          name="available-immediately"
+          value="yes"
+        />Yes</label
+      >
+      <label
+        ><input type="radio" name="available-immediately" value="no" />NO</label
+      >
+      <br /><br /><button type="submit">Submit Application</button>
+    </main>
+  </body>
+</html>
